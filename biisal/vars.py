@@ -18,7 +18,7 @@ class Var(object):
     name = str(getenv('name', 'TMR_file_stream_bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002204445436)
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002204445436'))
     NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002172025841'))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
