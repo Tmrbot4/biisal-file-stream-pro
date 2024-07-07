@@ -18,8 +18,8 @@ class Var(object):
     name = str(getenv('name', 'Pushpa_Moviee_bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002047761206'))
-    NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002047761206'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002240220476'))
+    NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002240220476'))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
